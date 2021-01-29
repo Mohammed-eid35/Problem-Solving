@@ -11,3 +11,9 @@ import math
 n = int(input())
 for i in range(n) :
 	print(int(math.pow(i, 2)))
+
+
+# 3
+n = int(input())
+for i in range(n) :
+    print(i ** 2)
