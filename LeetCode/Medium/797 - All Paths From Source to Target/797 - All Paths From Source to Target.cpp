@@ -12,7 +12,7 @@ public:
         return paths;
     }
     
-    void DFS(vector<vector<int>> graph, int u) {
+    void DFS(vector<vector<int>> &graph, int u) {
         if (u == n - 1) {
             paths.push_back(path);
             return;
